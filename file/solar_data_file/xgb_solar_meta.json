@@ -1,0 +1,33 @@
+{
+  "csv_path": "C:\\ESG_Project1\\file\\solar_data_file\\남동발전량_지역매핑_시간행_기상병합.csv",
+  "target": "합산발전량(MWh)",
+  "datetime_used": true,
+  "datetime_col": "__dt__",
+  "numeric_cols": [
+    "지점번호",
+    "기온(°C)",
+    "강수량(mm)",
+    "일조(hr)",
+    "일사(MJ/m2)",
+    "hour",
+    "dayofweek",
+    "month",
+    "is_weekend",
+    "hour_sin",
+    "hour_cos",
+    "month_sin",
+    "month_cos"
+  ],
+  "categorical_cols": [
+    "일시",
+    "발전구분",
+    "지역"
+  ],
+  "tree_method": "hist",
+  "predictor": "auto",
+  "metrics_train": {
+    "MAE": 203.0834395329565,
+    "RMSE": 671.8949579214876,
+    "R2": 0.9547881948193638
+  }
+}
